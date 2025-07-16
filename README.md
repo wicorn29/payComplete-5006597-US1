@@ -74,4 +74,4 @@ For official support, contact **payComplete** or **Ursalink/Milesight** directly
 
 ---
 
-_Repository maintained by [Your Name or GitHub Handle]_
+_Repository maintained by [wicorn29]_
