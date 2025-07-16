@@ -14,66 +14,64 @@ This repository contains the **Uboot firmware** for the device commonly known as
 
 ## Important Notice: Ursalink UR32-L Devices
 
-The payComplete 5006597-US1 device is actually based on the Ursalink UR32-L hardware. However:
+The payComplete 5006597-US1 is based on the **Ursalink UR32-L** hardware. However:
 
 - **Ursalink UR32-L Default Credentials:** `admin/password` respectively.
-- The **only thing that works with the Ursalink UR32-L on this guide is the user manual PDF** included in this repository.
+- The **only thing that works with the Ursalink UR32-L on this guide is the [user manual PDF](./ur32.pdf)**.
 
-- **DO NOT flash the firmware in this repository onto a Ursalink UR32-L device.**  
-  You **WILL brick your device!**
-
-This firmware is intended only for the payComplete 5006597-US1 terminal and is **not compatible** with Ursalink UR32-L devices.
+> ⚠️ **DO NOT flash the firmware in this repository onto a Ursalink UR32-L device.**  
+> You **WILL brick your device!** This firmware is only for the payComplete variant.
 
 ---
 
 ## Purpose
 
-If you need to restore or reflash the Uboot firmware on your payComplete 5006597-US1 device, this repository provides the necessary firmware files and resources to do so—helping you avoid having to contact payComplete or Ursalink support.
+This repo exists so you can restore or reflash the Uboot firmware on your payComplete 5006597-US1 **without needing to contact support**.
 
 ---
 
 ## Included Files
 
-- Uboot firmware image compatible with the payComplete 5006597-US1 terminal
-- Instruction manual in PDF format for the device
+- [`32.2.614.28.6.ext2`](./32.2.614.28.6.ext2) — Uboot firmware for the payComplete 5006597-US1
+- [`ur32.pdf`](./ur32.pdf) — Official instruction manual
 
 ---
 
 ## Restore / Recovery Guide
 
-For detailed instructions on performing a Uboot restore or recovery, see the official guide by Milesight IoT:
+To perform a Uboot restore, follow the instructions at Milesight’s support site:
 
-[Milesight Router / CPE Recovery Operations](https://support.milesight-iot.com/support/solutions/articles/73000607103-milesight-router-cpe-recovery-operations)
+👉 [Milesight Router / CPE Recovery Operations](https://support.milesight-iot.com/support/solutions/articles/73000607103-milesight-router-cpe-recovery-operations)
 
-> **Important:** Scroll down to the **last option** on the page for the specific recovery method related to Uboot restoration.
+> **Scroll to the very bottom** — the correct Uboot method is the **last option** on the page.
 
 ---
 
 ## Notes
 
-It took forever to crack that monster of a default password, so please ⭐ **star** this repository if it helps you!
+It took forever to hash that monster of a default password, so please ⭐ **star this repo** if it helps you!
 
 ---
 
 ## Disclaimer
 
 - Use all firmware and instructions at your own risk.
-- Make sure you fully understand the recovery steps before proceeding.
-- Incorrect flashing may permanently damage your device.
-- This repository is **not affiliated** with payComplete, Ursalink, or Milesight IoT.
+- Incorrect flashing can permanently damage your device.
+- This repo is **not affiliated** with payComplete, Ursalink, or Milesight.
 
 ---
 
 ## Contributions
 
-If you have updated firmware, additional recovery tips, or improved documentation, feel free to open an issue or submit a pull request.
+Found a newer firmware version or have extra tips?  
+Feel free to open a pull request or issue!
 
 ---
 
 ## Contact
 
-For official support, please contact payComplete or Ursalink support directly.
+For official support, contact **payComplete** or **Ursalink/Milesight** directly.
 
 ---
 
-*Repository maintained by [Your Name or GitHub Handle]*
+_Repository maintained by [Your Name or GitHub Handle]_
